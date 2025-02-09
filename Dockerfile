@@ -1,6 +1,15 @@
 FROM ubuntu:latest
 WORKDIR /
-RUN apt update && apt -y install curl wget && apt-get install -y libssl-dev
+RUN apt-get update && apt-get install -y \
+    libssl-dev \
+    libudev-dev \
+    pkg-config \
+    zlib1g-dev \
+    llvm \
+    clang \
+    make \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
 # Copies the trainer code to the docker image.
 COPY point /point
 #port setup
